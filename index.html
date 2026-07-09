@@ -1,0 +1,1774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NF Epoxy | Premium Epoxy Flooring Solutions</title>
+
+<meta name="description"
+content="Premium epoxy flooring systems, decorative pigments and coating solutions for residential, commercial and industrial projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+font-family:'Poppins',sans-serif;
+}
+
+:root{
+
+--navy:#0B2341;
+--yellow:#FDB913;
+--red:#D62828;
+
+--background:#F6F8FB;
+--text:#1F2937;
+--card:#FFFFFF;
+
+--shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+html.dark-mode{
+
+--background:#07111E;
+--text:#F4F7FA;
+--card:#102033;
+
+}
+
+body{
+
+background:var(--background);
+color:var(--text);
+transition:.35s;
+
+}
+
+.container{
+
+width:min(1200px,92%);
+margin:auto;
+
+}
+
+img{
+
+display:block;
+width:100%;
+
+}
+
+a{
+
+text-decoration:none;
+
+}
+
+/* ================= NAVIGATION ================= */
+
+header{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+
+z-index:1000;
+
+background:rgba(255,255,255,.94);
+
+backdrop-filter:blur(15px);
+
+box-shadow:var(--shadow);
+
+}
+
+.dark-mode header{
+
+background:rgba(7,17,30,.95);
+
+}
+
+.nav{
+
+height:85px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:space-between;
+
+}
+
+.logo{
+
+font-size:30px;
+
+font-weight:800;
+
+color:var(--navy);
+
+}
+
+.logo span{
+
+color:var(--yellow);
+
+}
+
+.dark-mode .logo{
+
+color:white;
+
+}
+
+nav{
+
+display:flex;
+
+gap:38px;
+
+}
+
+nav a{
+
+font-weight:600;
+
+color:var(--text);
+
+position:relative;
+
+}
+
+nav a::after{
+
+content:"";
+
+position:absolute;
+
+bottom:-8px;
+left:0;
+
+width:0;
+
+height:3px;
+
+background:var(--yellow);
+
+transition:.35s;
+
+}
+
+nav a:hover::after,
+nav a.active::after{
+
+width:100%;
+
+}
+
+.actions{
+
+display:flex;
+
+gap:15px;
+
+align-items:center;
+
+}
+
+.theme{
+
+height:42px;
+width:42px;
+
+border-radius:50%;
+
+border:none;
+
+background:var(--yellow);
+
+cursor:pointer;
+
+font-size:18px;
+
+}
+
+/* ================= HERO ================= */
+
+.hero{
+
+height:100vh;
+
+background:
+
+linear-gradient(rgba(7,17,30,.75),rgba(7,17,30,.75)),
+
+url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1800")
+
+center/cover;
+
+display:flex;
+
+align-items:center;
+
+color:white;
+
+}
+
+.hero-content{
+
+max-width:700px;
+
+animation:fadeUp 1.2s ease;
+
+}
+
+.hero h1{
+
+font-size:68px;
+
+line-height:1.1;
+
+margin-bottom:25px;
+
+font-weight:800;
+
+}
+
+.hero p{
+
+font-size:20px;
+
+line-height:1.9;
+
+margin-bottom:40px;
+
+opacity:.9;
+
+}
+
+.hero-buttons{
+
+display:flex;
+
+gap:20px;
+
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:18px 38px;
+
+border-radius:50px;
+
+font-weight:700;
+
+transition:.35s;
+
+}
+
+.btn-primary{
+
+background:var(--yellow);
+
+color:black;
+
+}
+
+.btn-primary:hover{
+
+transform:translateY(-6px);
+
+}
+
+.btn-outline{
+
+border:2px solid white;
+
+color:white;
+
+}
+
+.btn-outline:hover{
+
+background:white;
+
+color:black;
+
+}
+
+.scroll{
+
+position:absolute;
+
+bottom:35px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+font-size:34px;
+
+animation:bounce 2s infinite;
+
+}
+
+/* ================= ANIMATIONS ================= */
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
+
+@keyframes bounce{
+
+0%,100%{
+
+transform:translate(-50%,0);
+
+}
+
+50%{
+
+transform:translate(-50%,12px);
+
+}
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:900px){
+
+nav{
+
+display:none;
+
+}
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:46px;
+
+}
+
+.hero p{
+
+font-size:18px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<a href="index.html" class="logo">
+
+NF <span>Epoxy</span>
+
+</a>
+
+<nav>
+
+<a class="active" href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="products.html">Products</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="actions">
+
+<button class="theme" onclick="toggleTheme()">
+
+🌙
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="container hero-content">
+
+<h1>
+
+Premium Epoxy Solutions<br>
+
+Built to Last
+
+</h1>
+
+<p>
+
+Supplying premium epoxy flooring systems,
+decorative pigments and coating solutions
+for residential, commercial and industrial projects
+across South Africa.
+
+</p>
+
+<div class="hero-buttons">
+
+<a href="products.html" class="btn btn-primary">
+
+View Products
+
+</a>
+
+<a href="contact.html" class="btn btn-outline">
+
+Request a Quote
+
+</a>
+
+</div>
+
+</div>
+
+<div class="scroll">
+
+<i class="fas fa-chevron-down"></i>
+
+</div>
+
+</section>
+<!-- ========================================= -->
+<!-- FEATURED PRODUCTS -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+Featured Products
+</h2>
+
+<p class="subtitle" style="text-align:center;max-width:720px;margin:0 auto 60px;line-height:1.8;color:#6b7280;">
+Quality epoxy systems and pigments designed for professional,
+commercial and DIY applications.
+</p>
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1581092919535-7146ff1a5905?w=900" alt="Liquid Pigments">
+
+<div class="product-content">
+
+<h3>Liquid Pigments</h3>
+
+<p>Premium colour pigments for decorative epoxy flooring.</p>
+
+<span>From <strong>R499</strong></span>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1616628182509-6cdbf3f2b3a5?w=900" alt="Powder Pigments">
+
+<div class="product-content">
+
+<h3>Powder Pigments</h3>
+
+<p>High-quality pigments for vibrant and durable finishes.</p>
+
+<span>From <strong>R140</strong></span>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=900" alt="3kg Kit">
+
+<div class="product-content">
+
+<h3>3kg Floor Kit</h3>
+
+<p>Ideal for smaller residential flooring projects.</p>
+
+<span><strong>R1,070</strong></span>
+
+</div>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=900" alt="15kg Kit">
+
+<div class="product-content">
+
+<h3>15kg Floor Kit</h3>
+
+<p>Commercial-grade epoxy system for larger installations.</p>
+
+<span><strong>R5,236</strong></span>
+
+</div>
+
+</div>
+
+</div>
+
+<div style="text-align:center;margin-top:50px;">
+
+<a href="products.html" class="btn btn-primary">
+
+View Full Product Catalogue
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- ABOUT PREVIEW -->
+<!-- ========================================= -->
+
+<section style="background:var(--card);padding:100px 0;">
+
+<div class="container about-grid">
+
+<div>
+
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1000"
+style="border-radius:20px;box-shadow:var(--shadow);" alt="NF Epoxy">
+
+</div>
+
+<div>
+
+<h2 class="title" style="font-size:42px;color:var(--navy);margin-bottom:20px;">
+
+About NF Epoxy
+
+</h2>
+
+<p style="line-height:1.9;margin-bottom:20px;">
+
+NF Epoxy supplies premium epoxy flooring systems,
+liquid pigments and decorative coatings designed
+for residential, commercial and industrial projects.
+
+</p>
+
+<p style="line-height:1.9;margin-bottom:35px;">
+
+Our mission is to provide dependable products,
+professional service and expert guidance,
+helping every customer achieve outstanding results.
+
+</p>
+
+<a href="about.html" class="btn btn-primary">
+
+Learn More
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- WHY CHOOSE US -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+Why Choose NF Epoxy?
+</h2>
+
+<p class="subtitle" style="text-align:center;max-width:700px;margin:0 auto 60px;line-height:1.8;color:#6b7280;">
+Quality products, trusted advice and flooring solutions
+designed to perform.
+</p>
+
+<div class="features">
+
+<div class="feature">
+
+<i class="fas fa-award"></i>
+
+<h3>Premium Quality</h3>
+
+<p>Products selected for performance and durability.</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-palette"></i>
+
+<h3>Wide Colour Range</h3>
+
+<p>Liquid and powder pigments for unique finishes.</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-headset"></i>
+
+<h3>Expert Advice</h3>
+
+<p>Helping you choose the correct epoxy system.</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-industry"></i>
+
+<h3>Commercial Solutions</h3>
+
+<p>Trusted for warehouses, retail and industrial spaces.</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-shield-alt"></i>
+
+<h3>Built to Last</h3>
+
+<p>Designed for strength, durability and longevity.</p>
+
+</div>
+
+<div class="feature">
+
+<i class="fas fa-handshake"></i>
+
+<h3>Customer Focused</h3>
+
+<p>Committed to excellent service from start to finish.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.product-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+
+}
+
+.product-card{
+
+background:var(--card);
+border-radius:18px;
+overflow:hidden;
+box-shadow:var(--shadow);
+transition:.35s;
+
+}
+
+.product-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.product-card img{
+
+height:220px;
+object-fit:cover;
+
+}
+
+.product-content{
+
+padding:25px;
+
+}
+
+.product-content h3{
+
+margin-bottom:15px;
+
+}
+
+.product-content p{
+
+line-height:1.7;
+margin-bottom:15px;
+
+}
+
+.product-content span{
+
+font-size:18px;
+font-weight:600;
+color:var(--yellow);
+
+}
+
+.about-grid{
+
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:70px;
+align-items:center;
+
+}
+
+.features{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+
+}
+
+.feature{
+
+background:var(--card);
+padding:35px;
+border-radius:18px;
+box-shadow:var(--shadow);
+text-align:center;
+transition:.35s;
+
+}
+
+.feature:hover{
+
+transform:translateY(-8px);
+
+}
+
+.feature i{
+
+font-size:48px;
+color:var(--yellow);
+margin-bottom:20px;
+
+}
+
+.feature h3{
+
+margin-bottom:15px;
+
+}
+
+.feature p{
+
+line-height:1.8;
+
+}
+
+@media(max-width:900px){
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+</style>
+<!-- ========================================= -->
+<!-- PROJECT GALLERY -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;background:var(--background);">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+Our Solutions
+</h2>
+
+<p class="subtitle" style="text-align:center;max-width:750px;margin:0 auto 60px;">
+Premium epoxy systems designed for homes, businesses and industrial environments.
+</p>
+
+<div class="gallery-grid">
+
+<div class="gallery-card">
+
+<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200" alt="Garage Floor">
+
+<div class="overlay">
+
+<h3>Garage Floors</h3>
+
+<p>Durable, chemical-resistant epoxy finishes.</p>
+
+</div>
+
+</div>
+
+<div class="gallery-card">
+
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1200" alt="Warehouse">
+
+<div class="overlay">
+
+<h3>Warehouse Flooring</h3>
+
+<p>Heavy-duty flooring systems built to last.</p>
+
+</div>
+
+</div>
+
+<div class="gallery-card">
+
+<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1200" alt="Commercial">
+
+<div class="overlay">
+
+<h3>Commercial Spaces</h3>
+
+<p>Professional finishes for retail and offices.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- INDUSTRIES -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;background:var(--card);">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+Industries We Serve
+</h2>
+
+<div class="industry-grid">
+
+<div class="industry-box">
+<i class="fas fa-home"></i>
+<h3>Residential</h3>
+<p>Garages, patios and home flooring systems.</p>
+</div>
+
+<div class="industry-box">
+<i class="fas fa-store"></i>
+<h3>Commercial</h3>
+<p>Retail stores, offices and shopping centres.</p>
+</div>
+
+<div class="industry-box">
+<i class="fas fa-industry"></i>
+<h3>Industrial</h3>
+<p>Factories, workshops and warehouses.</p>
+</div>
+
+<div class="industry-box">
+<i class="fas fa-warehouse"></i>
+<h3>Warehouses</h3>
+<p>Heavy-duty flooring for demanding environments.</p>
+</div>
+
+<div class="industry-box">
+<i class="fas fa-car"></i>
+<h3>Automotive</h3>
+<p>Showrooms, workshops and service centres.</p>
+</div>
+
+<div class="industry-box">
+<i class="fas fa-school"></i>
+<h3>Education</h3>
+<p>Durable flooring for schools and institutions.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- COMPANY STATS -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+Why Customers Trust NF Epoxy
+</h2>
+
+<div class="stats-grid">
+
+<div class="stat-box">
+<h2>100%</h2>
+<p>Quality Focused</p>
+</div>
+
+<div class="stat-box">
+<h2>★★★★★</h2>
+<p>Customer Satisfaction</p>
+</div>
+
+<div class="stat-box">
+<h2>SA</h2>
+<p>South African Supplier</p>
+</div>
+
+<div class="stat-box">
+<h2>24/7</h2>
+<p>WhatsApp Support</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.gallery-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+gap:30px;
+
+}
+
+.gallery-card{
+
+position:relative;
+overflow:hidden;
+border-radius:20px;
+box-shadow:var(--shadow);
+
+}
+
+.gallery-card img{
+
+height:320px;
+width:100%;
+object-fit:cover;
+transition:.5s;
+
+}
+
+.gallery-card:hover img{
+
+transform:scale(1.08);
+
+}
+
+.overlay{
+
+position:absolute;
+inset:0;
+background:linear-gradient(to top, rgba(0,0,0,.85), transparent);
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+padding:30px;
+color:white;
+
+}
+
+.overlay h3{
+
+margin-bottom:10px;
+
+}
+
+.industry-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:50px;
+
+}
+
+.industry-box{
+
+background:var(--background);
+padding:35px;
+text-align:center;
+border-radius:18px;
+box-shadow:var(--shadow);
+transition:.3s;
+
+}
+
+.industry-box:hover{
+
+transform:translateY(-8px);
+
+}
+
+.industry-box i{
+
+font-size:46px;
+color:var(--yellow);
+margin-bottom:20px;
+
+}
+
+.stats-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:60px;
+
+}
+
+.stat-box{
+
+background:var(--card);
+padding:45px;
+text-align:center;
+border-radius:18px;
+box-shadow:var(--shadow);
+
+}
+
+.stat-box h2{
+
+font-size:52px;
+color:var(--yellow);
+margin-bottom:15px;
+
+}
+
+.stat-box p{
+
+font-size:18px;
+font-weight:600;
+
+}
+
+</style>
+<!-- ========================================= -->
+<!-- TESTIMONIALS -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;background:var(--card);">
+
+<div class="container">
+
+<h2 class="title" style="text-align:center;font-size:42px;color:var(--navy);margin-bottom:20px;">
+What Our Customers Say
+</h2>
+
+<p class="subtitle" style="text-align:center;max-width:700px;margin:0 auto 60px;">
+Quality products and excellent customer service are at the heart of everything we do.
+</p>
+
+<div class="testimonial-grid">
+
+<div class="testimonial">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"The epoxy kit exceeded our expectations. The finish was flawless and extremely durable."
+
+</p>
+
+<h4>Residential Customer</h4>
+
+</div>
+
+<div class="testimonial">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"Professional advice from start to finish. Ordering was simple and the product quality was excellent."
+
+</p>
+
+<h4>Commercial Client</h4>
+
+</div>
+
+<div class="testimonial">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+
+"We've used several epoxy suppliers over the years, and NF Epoxy stands out for quality and service."
+
+</p>
+
+<h4>Industrial Contractor</h4>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- LOCATION -->
+<!-- ========================================= -->
+
+<section style="padding:100px 0;">
+
+<div class="container about-grid">
+
+<div>
+
+<h2 class="title" style="color:var(--navy);">
+Visit NF Epoxy
+</h2>
+
+<p style="line-height:1.9;margin-bottom:20px;">
+
+Conveniently located in the Kempton Park region, NF Epoxy proudly supplies premium epoxy flooring systems, pigments and accessories to customers throughout Gauteng and beyond.
+
+</p>
+
+<p style="line-height:1.9;margin-bottom:35px;">
+
+Whether you're tackling a home garage, warehouse, showroom or commercial flooring project, we're ready to assist.
+
+</p>
+
+<a href="https://wa.me/27764037621"
+class="btn btn-primary"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+Chat on WhatsApp
+
+</a>
+
+</div>
+
+<div>
+
+<iframe
+src="https://maps.google.com/maps?q=Kempton%20Park&t=&z=12&ie=UTF8&iwloc=&output=embed"
+style="
+width:100%;
+height:420px;
+border:none;
+border-radius:20px;
+box-shadow:var(--shadow);
+"
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ========================================= -->
+<!-- CALL TO ACTION -->
+<!-- ========================================= -->
+
+<section style="
+padding:100px 0;
+background:linear-gradient(135deg,var(--navy),#08121f);
+color:white;
+text-align:center;
+">
+
+<div class="container">
+
+<h2 style="
+font-size:48px;
+margin-bottom:20px;
+font-weight:800;
+">
+
+Ready to Start Your Next Project?
+
+</h2>
+
+<p style="
+max-width:760px;
+margin:auto;
+line-height:1.9;
+opacity:.9;
+margin-bottom:45px;
+">
+
+Whether you're renovating a garage, fitting out a commercial space or completing an industrial flooring project, NF Epoxy has the products and expertise to help you achieve outstanding results.
+
+</p>
+
+<div style="
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+">
+
+<a href="products.html"
+class="btn btn-primary">
+
+Browse Products
+
+</a>
+
+<a href="https://wa.me/27764037621"
+class="btn btn-outline"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+Get a Quote
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.testimonial-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+
+}
+
+.testimonial{
+
+background:var(--background);
+padding:35px;
+border-radius:20px;
+box-shadow:var(--shadow);
+transition:.35s;
+
+}
+
+.testimonial:hover{
+
+transform:translateY(-8px);
+
+}
+
+.stars{
+
+color:#FDB913;
+font-size:22px;
+margin-bottom:20px;
+letter-spacing:3px;
+
+}
+
+.testimonial p{
+
+line-height:1.9;
+margin-bottom:25px;
+font-style:italic;
+
+}
+
+.testimonial h4{
+
+color:var(--navy);
+
+}
+
+.dark-mode .testimonial h4{
+
+color:#ffffff;
+
+}
+
+</style>
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
+
+<footer class="footer">
+
+<div class="container footer-grid">
+
+<div>
+
+<h2 class="footer-logo">
+
+NF <span>Epoxy</span>
+
+</h2>
+
+<p>
+
+Premium epoxy flooring systems,
+decorative pigments and professional coating solutions
+for residential, commercial and industrial applications.
+
+</p>
+
+</div>
+
+<div>
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="about.html">About</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Products</h3>
+
+<ul>
+
+<li>Floor Epoxy Kits</li>
+
+<li>Liquid Pigments</li>
+
+<li>Powder Pigments</li>
+
+<li>Decorative Accessories</li>
+
+</ul>
+
+</div>
+
+<div>
+
+<h3>Contact</h3>
+
+<p>📍 Kempton Park, Gauteng</p>
+
+<p>📱 +27 76 403 7621</p>
+
+<p>📧 enquiries@nfdemo.co.za</p>
+
+<div class="social-links">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="https://wa.me/27764037621" target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 NF Epoxy. All Rights Reserved.
+
+</p>
+
+<p class="watermark">
+
+<strong>Demo Website by Animo Group Holdings (In Formation)</strong>
+
+</p>
+
+</div>
+
+</footer>
+
+<!-- ========================================= -->
+<!-- FLOATING WHATSAPP -->
+<!-- ========================================= -->
+
+<a href="https://wa.me/27764037621"
+class="floating-whatsapp"
+target="_blank"
+aria-label="Chat on WhatsApp">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<!-- ========================================= -->
+<!-- SCROLL TO TOP -->
+<!-- ========================================= -->
+
+<button id="scrollTopBtn" aria-label="Scroll to top">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<style>
+
+/* ---------- Footer ---------- */
+
+.footer{
+
+background:#08111F;
+color:white;
+padding:80px 0 25px;
+
+}
+
+.footer-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:45px;
+
+}
+
+.footer-logo{
+
+font-size:34px;
+margin-bottom:20px;
+
+}
+
+.footer-logo span{
+
+color:var(--yellow);
+
+}
+
+.footer h3{
+
+margin-bottom:18px;
+color:var(--yellow);
+
+}
+
+.footer ul{
+
+list-style:none;
+
+}
+
+.footer li{
+
+margin-bottom:12px;
+
+}
+
+.footer a{
+
+color:white;
+opacity:.85;
+transition:.3s;
+
+}
+
+.footer a:hover{
+
+opacity:1;
+color:var(--yellow);
+
+}
+
+.footer p{
+
+line-height:1.8;
+
+}
+
+.social-links{
+
+display:flex;
+gap:15px;
+margin-top:20px;
+
+}
+
+.social-links a{
+
+height:45px;
+width:45px;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+border-radius:50%;
+
+background:rgba(255,255,255,.08);
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+.social-links a:hover{
+
+background:var(--yellow);
+color:#000;
+
+transform:translateY(-5px);
+
+}
+
+.footer-bottom{
+
+margin-top:60px;
+padding-top:25px;
+
+border-top:1px solid rgba(255,255,255,.1);
+
+text-align:center;
+
+font-size:14px;
+
+}
+
+.watermark{
+
+margin-top:10px;
+opacity:.7;
+
+}
+
+/* ---------- Floating WhatsApp ---------- */
+
+.floating-whatsapp{
+
+position:fixed;
+
+bottom:25px;
+right:25px;
+
+height:65px;
+width:65px;
+
+border-radius:50%;
+
+background:#25D366;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:32px;
+
+color:white;
+
+box-shadow:0 15px 35px rgba(0,0,0,.25);
+
+z-index:999;
+
+transition:.3s;
+
+}
+
+.floating-whatsapp:hover{
+
+transform:scale(1.08);
+
+}
+
+/* ---------- Scroll Button ---------- */
+
+#scrollTopBtn{
+
+position:fixed;
+
+bottom:105px;
+right:34px;
+
+height:48px;
+width:48px;
+
+border:none;
+
+border-radius:50%;
+
+background:var(--yellow);
+
+cursor:pointer;
+
+display:none;
+
+font-size:18px;
+
+box-shadow:var(--shadow);
+
+transition:.3s;
+
+}
+
+#scrollTopBtn:hover{
+
+transform:translateY(-4px);
+
+}
+
+</style>
+
+<script>
+
+/* ---------- Dark Mode ---------- */
+
+function toggleTheme(){
+
+document.documentElement.classList.toggle("dark-mode");
+
+}
+
+/* ---------- Scroll Button ---------- */
+
+const scrollBtn=document.getElementById("scrollTopBtn");
+
+window.addEventListener("scroll",()=>{
+
+if(window.scrollY>350){
+
+scrollBtn.style.display="flex";
+
+}else{
+
+scrollBtn.style.display="none";
+
+}
+
+});
+
+scrollBtn.addEventListener("click",()=>{
+
+window.scrollTo({
+
+top:0,
+
+behavior:"smooth"
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>

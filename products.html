@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>NF Epoxy | Under Construction</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+:root{
+
+--navy:#0B2341;
+--yellow:#FDB913;
+--red:#D62828;
+--background:#F6F8FB;
+--text:#1F2937;
+--card:#FFFFFF;
+--shadow:0 20px 45px rgba(0,0,0,.12);
+
+}
+
+body{
+
+background:var(--background);
+color:var(--text);
+
+}
+
+.container{
+
+width:min(1200px,92%);
+margin:auto;
+
+}
+
+/* ---------------- HEADER ---------------- */
+
+header{
+
+position:fixed;
+top:0;
+left:0;
+width:100%;
+
+background:rgba(255,255,255,.95);
+backdrop-filter:blur(10px);
+
+box-shadow:var(--shadow);
+
+z-index:1000;
+
+}
+
+.nav{
+
+height:85px;
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.logo{
+
+font-size:30px;
+font-weight:800;
+color:var(--navy);
+text-decoration:none;
+
+}
+
+.logo span{
+
+color:var(--yellow);
+
+}
+
+nav{
+
+display:flex;
+gap:35px;
+
+}
+
+nav a{
+
+text-decoration:none;
+font-weight:600;
+color:var(--text);
+position:relative;
+
+}
+
+nav a:hover{
+
+color:var(--yellow);
+
+}
+
+/* ---------------- HERO ---------------- */
+
+.hero{
+
+height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+text-align:center;
+
+padding:20px;
+
+position:relative;
+
+overflow:hidden;
+
+background:
+
+linear-gradient(rgba(7,17,30,.88),rgba(7,17,30,.88)),
+
+url("https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1800")
+
+center/cover;
+
+color:white;
+
+}
+
+.hero::before{
+
+content:"";
+
+position:absolute;
+
+width:500px;
+height:500px;
+
+background:rgba(253,185,19,.08);
+
+border-radius:50%;
+
+top:-150px;
+right:-150px;
+
+animation:float 8s ease-in-out infinite;
+
+}
+
+.hero::after{
+
+content:"";
+
+position:absolute;
+
+width:400px;
+height:400px;
+
+background:rgba(214,40,40,.08);
+
+border-radius:50%;
+
+bottom:-120px;
+left:-120px;
+
+animation:float 10s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(30px);
+
+}
+
+}
+
+.hero-content{
+
+position:relative;
+z-index:2;
+
+max-width:800px;
+
+}
+
+.hero-content i{
+
+font-size:90px;
+
+color:var(--yellow);
+
+margin-bottom:30px;
+
+}
+
+.hero-content h1{
+
+font-size:64px;
+
+margin-bottom:20px;
+
+font-weight:800;
+
+}
+
+.hero-content p{
+
+font-size:20px;
+
+line-height:1.9;
+
+opacity:.9;
+
+margin-bottom:40px;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:18px 40px;
+
+border-radius:50px;
+
+background:var(--yellow);
+
+color:#000;
+
+font-weight:700;
+
+text-decoration:none;
+
+transition:.35s;
+
+}
+
+.btn:hover{
+
+transform:translateY(-6px);
+
+}
+
+/* ---------------- FOOTER ---------------- */
+
+footer{
+
+background:#08111F;
+
+color:white;
+
+text-align:center;
+
+padding:35px;
+
+}
+
+footer p{
+
+opacity:.8;
+
+}
+
+.watermark{
+
+margin-top:12px;
+
+font-size:14px;
+
+opacity:.6;
+
+}
+
+/* ---------------- MOBILE ---------------- */
+
+@media(max-width:900px){
+
+nav{
+
+display:none;
+
+}
+
+.hero-content h1{
+
+font-size:42px;
+
+}
+
+.hero-content p{
+
+font-size:18px;
+
+}
+
+.hero-content i{
+
+font-size:70px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<a href="index.html" class="logo">
+
+NF <span>Epoxy</span>
+
+</a>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="products.html">Products</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<i class="fas fa-person-digging"></i>
+
+<h1>Page Under Construction</h1>
+
+<p>
+
+We're currently building this page to provide you with an even better online experience.
+
+Please check back soon as we continue expanding the NF Epoxy website.
+
+</p>
+
+<a href="index.html" class="btn">
+
+<i class="fas fa-arrow-left"></i>
+
+Return to Homepage
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+
+© 2026 NF Epoxy. All Rights Reserved.
+
+</p>
+
+<div class="watermark">
+
+Demo Website by <strong>Animo Group Holdings (In Formation)</strong>
+
+</div>
+
+</footer>
+
+</body>
+
+</html>
