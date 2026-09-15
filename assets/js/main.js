@@ -18,3 +18,10 @@ if (menuToggle && navLinks) {
     });
   });
 }
+
+document.querySelectorAll('.flip-trigger').forEach((trigger) => {
+  trigger.addEventListener('click', () => {
+    const card = trigger.closest('.flip-card');
+    if (card) card.classList.toggle('flipped');
+  });
+});
