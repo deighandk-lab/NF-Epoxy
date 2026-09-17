@@ -25,3 +25,13 @@ document.querySelectorAll('.flip-trigger').forEach((trigger) => {
     if (card) card.classList.toggle('flipped');
   });
 });
+
+// Use the approved NF Epoxy logo in the header on every page.
+const logoLink = document.querySelector('.logo');
+if (logoLink) {
+  const logoPath = window.location.pathname.includes('/pages/')
+    ? '../assets/images/nf-epoxy-logo-header.webp'
+    : 'assets/images/nf-epoxy-logo-header.webp';
+  logoLink.innerHTML = '<img src="' + logoPath + '" alt="NF Epoxy" style="display:block;width:auto;height:58px;max-width:180px;object-fit:contain;">';
+  logoLink.setAttribute('aria-label', 'NF Epoxy home');
+}
