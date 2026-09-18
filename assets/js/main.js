@@ -32,6 +32,6 @@ if (logoLink) {
   const logoPath = window.location.pathname.includes('/pages/')
     ? '../assets/images/nf-epoxy-logo-header.webp'
     : 'assets/images/nf-epoxy-logo-header.webp';
-  logoLink.innerHTML = '<img src="' + logoPath + '" alt="NF Epoxy" style="display:block;width:auto;height:58px;max-width:180px;object-fit:contain;">';
+  logoLink.innerHTML = '<img src="' + logoPath + '" alt="NF Epoxy" style="display:block;width:auto;height:72px;max-width:225px;object-fit:contain;">';
   logoLink.setAttribute('aria-label', 'NF Epoxy home');
 }
