@@ -54,7 +54,7 @@ Core differentiator:
 - Capacity: 5 spaces per class
 - Price: R1,950
 - Payment: 50% deposit or full payment secures the space
-- Includes practical braai plankie mould, treatment and care, mould-making, epoxy mixing/application, finished-product activities, lunch and drinks
+- Includes practical braai plankie mould, epoxy mixing/application, care and finished-product activities, plus lunch and drinks
 
 ### Arts & Crafts Workshop
 
@@ -63,9 +63,8 @@ Core differentiator:
 - Location: Kempton Park
 - Capacity: 5 spaces per class
 - Price: R1,240
-- Includes introduction to epoxy, practical mixing/moulding/pouring demonstration, and participant projects including a cheese board, key chain and coasters
-- Finished projects are yours to keep
-- Lunch and beverages included
+- Includes introduction to epoxy, practical mixing/moulding/pouring demonstration, participant projects (cheese board, key chain and coasters), finished projects to keep, lunch and beverages
+
 Unconfirmed workshops are shown only as categories or coming-soon options. No dates, prices, availability or technical claims are invented.
 
 ## Shared functionality
