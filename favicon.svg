@@ -1,1 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc"><title>NF Epoxy</title><desc>NF Epoxy brand mark</desc><rect width="64" height="64" rx="12" fill="#0B2341"/><path d="M14 45V19h7l11 15V19h7v26h-7L21 30v15z" fill="#fff"/><path d="M44 19h6v26h-6z" fill="#D62828"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+<title>NF Epoxy</title>
+<desc>NF Epoxy brand mark</desc>
+<rect width="64" height="64" rx="14" fill="#0B2341"/>
+<rect x="5" y="5" width="54" height="54" rx="11" fill="none" stroke="#FFFFFF" stroke-opacity=".14" stroke-width="2"/>
+<path d="M13 46V18h7l11 16V18h7v28h-7L20 30v16z" fill="#FFFFFF"/>
+<path d="M43 18h8v28h-8z" fill="#D62828"/>
+</svg>
