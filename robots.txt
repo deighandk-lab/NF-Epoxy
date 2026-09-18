@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deighandk-lab.github.io/NF-Epoxy/sitemap.xml
