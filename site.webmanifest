@@ -1,0 +1,17 @@
+{
+  "name": "NF Epoxy",
+  "short_name": "NF Epoxy",
+  "description": "Professional epoxy solutions and hands-on workshops in Kempton Park and across Gauteng.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0B2341",
+  "theme_color": "#0B2341",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
