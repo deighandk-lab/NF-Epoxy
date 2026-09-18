@@ -40,7 +40,7 @@ Core differentiator:
 
 ### Epoxy DIY Flooring Workshop
 
-- Date: 19 September 2026
+- Dates: 19 September, 17 October, 14 November & 15 December 2026
 - Time: 09h00–14h00
 - Capacity: 5 spaces per class
 - Workshop Only: R1,900
@@ -49,13 +49,23 @@ Core differentiator:
 
 ### Braai Plankie Workshop
 
-- Date: 26 September 2026
+- Dates: 26 September, 24 October, 21 November & 14 December 2026
 - Time: 09h00–14h00
-- Capacity: 5 spaces
+- Capacity: 5 spaces per class
 - Price: R1,950
 - Payment: 50% deposit or full payment secures the space
-- Includes practical braai plankie mould, epoxy mixing/application, care and finished-product activities, plus lunch and drinks
+- Includes practical braai plankie mould, treatment and care, mould-making, epoxy mixing/application, finished-product activities, lunch and drinks
 
+### Arts & Crafts Workshop
+
+- Dates: 3 October, 7 November & 12 December 2026
+- Time: 09h00–14h00
+- Location: Kempton Park
+- Capacity: 5 spaces per class
+- Price: R1,240
+- Includes introduction to epoxy, practical mixing/moulding/pouring demonstration, and participant projects including a cheese board, key chain and coasters
+- Finished projects are yours to keep
+- Lunch and beverages included
 Unconfirmed workshops are shown only as categories or coming-soon options. No dates, prices, availability or technical claims are invented.
 
 ## Shared functionality
