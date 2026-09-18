@@ -67,5 +67,11 @@ if (logoLink) {
     ? '../assets/images/nf-epoxy-logo-header.webp'
     : 'assets/images/nf-epoxy-logo-header.webp';
   logoLink.innerHTML = '<img src="' + logoPath + '" alt="NF Epoxy" style="display:block;width:auto;height:72px;max-width:225px;object-fit:contain;">';
+  const logoImage = logoLink.querySelector('img');
+  if (logoImage) {
+    logoImage.addEventListener('error', () => {
+      logoLink.innerHTML = 'NF <span>Epoxy</span>';
+    }, { once: true });
+  }
   logoLink.setAttribute('aria-label', 'NF Epoxy home');
 }
