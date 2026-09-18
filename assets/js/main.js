@@ -19,10 +19,44 @@ if (menuToggle && navLinks) {
   });
 }
 
-document.querySelectorAll('.flip-trigger').forEach((trigger) => {
-  trigger.addEventListener('click', () => {
-    const card = trigger.closest('.flip-card');
-    if (card) card.classList.toggle('flipped');
+document.querySelectorAll('.flip-card').forEach((card) => {
+  const frontTrigger = card.querySelector('.flip-front .flip-trigger');
+  const backTrigger = card.querySelector('.flip-back .flip-trigger');
+
+  const setFlipped = (flipped, moveFocus = false) => {
+    card.classList.toggle('flipped', flipped);
+
+    if (frontTrigger) {
+      frontTrigger.setAttribute('aria-pressed', String(flipped));
+      frontTrigger.tabIndex = flipped ? -1 : 0;
+    }
+
+    if (backTrigger) {
+      backTrigger.tabIndex = flipped ? 0 : -1;
+    }
+
+    if (moveFocus) {
+      const target = flipped ? backTrigger : frontTrigger;
+      if (target) target.focus();
+    }
+  };
+
+  if (frontTrigger) {
+    frontTrigger.setAttribute('aria-pressed', 'false');
+    frontTrigger.tabIndex = 0;
+    frontTrigger.addEventListener('click', () => setFlipped(true, true));
+  }
+
+  if (backTrigger) {
+    backTrigger.tabIndex = -1;
+    backTrigger.addEventListener('click', () => setFlipped(false, true));
+  }
+
+  card.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && card.classList.contains('flipped')) {
+      event.preventDefault();
+      setFlipped(false, true);
+    }
   });
 });
 
