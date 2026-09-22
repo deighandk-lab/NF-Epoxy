@@ -2,3 +2,5 @@
 /* Final accessibility and mobile polish */
 @media(max-width:620px){.logo img{height:60px!important;max-width:190px!important}.contact-mini a{color:var(--navy);font-weight:600}.contact-mini a:hover{color:var(--red)}}
 .contact-mini a{color:var(--navy);font-weight:600}.contact-mini a:hover{color:var(--red)}
+
+.preview-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}.preview-actions .text-link:last-child{color:var(--red)}.preview-actions .text-link:last-child:hover{color:var(--navy)}@media(max-width:620px){.preview-actions{gap:10px}.preview-actions .text-link{font-size:14px}}
