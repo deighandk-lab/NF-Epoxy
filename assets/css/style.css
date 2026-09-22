@@ -4,3 +4,5 @@
 .contact-mini a{color:var(--navy);font-weight:600}.contact-mini a:hover{color:var(--red)}
 
 .preview-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px}.preview-actions .text-link:last-child{color:var(--red)}.preview-actions .text-link:last-child:hover{color:var(--navy)}@media(max-width:620px){.preview-actions{gap:10px}.preview-actions .text-link{font-size:14px}}
+
+.service-actions{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin-top:18px}.service-actions .btn{padding:11px 18px}.service-actions .text-link{font-size:14px}@media(max-width:620px){.service-actions{align-items:flex-start;flex-direction:column;gap:10px}}
