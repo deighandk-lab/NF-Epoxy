@@ -40,7 +40,7 @@ Core differentiator:
 
 ### Epoxy DIY Flooring Workshop
 
-- Dates: 19 September, 17 October, 14 November & 15 December 2026
+- Dates: 17 October, 14 November & 15 December 2026; 16 January & 20 February 2027
 - Time: 09h00–14h00
 - Capacity: 5 spaces per class
 - Workshop Only: R1,900
@@ -49,7 +49,7 @@ Core differentiator:
 
 ### Braai Plankie Workshop
 
-- Dates: 26 September, 24 October, 21 November & 14 December 2026
+- Dates: 24 October, 21 November & 14 December 2026; 23 January & 27 February 2027
 - Time: 09h00–14h00
 - Capacity: 5 spaces per class
 - Price: R1,950
@@ -58,7 +58,7 @@ Core differentiator:
 
 ### Arts & Crafts Workshop
 
-- Dates: 3 October, 7 November & 12 December 2026
+- Dates: 7 November & 12 December 2026; 9 January & 6 February 2027
 - Time: 09h00–14h00
 - Location: Kempton Park
 - Capacity: 5 spaces per class
