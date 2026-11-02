@@ -75,3 +75,17 @@ if (logoLink) {
   }
   logoLink.setAttribute('aria-label', 'NF Epoxy home');
 }
+
+// Add the official Terms & Conditions document to the Resources footer on every page.
+const footerResources = document.querySelector('.footer-links');
+if (footerResources && !footerResources.querySelector('[data-terms-link]')) {
+  const termsLink = document.createElement('a');
+  termsLink.href = window.location.pathname.includes('/pages/')
+    ? '../assets/documents/NF-Epoxy-Terms-and-Conditions.pdf'
+    : 'assets/documents/NF-Epoxy-Terms-and-Conditions.pdf';
+  termsLink.target = '_blank';
+  termsLink.rel = 'noopener noreferrer';
+  termsLink.textContent = 'Terms & Conditions';
+  termsLink.setAttribute('data-terms-link', 'true');
+  footerResources.appendChild(termsLink);
+}
