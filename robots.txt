@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://deighandk-lab.github.io/NF-Epoxy/sitemap.xml
+Sitemap: https://www.nfepoxy.co.za/sitemap.xml
