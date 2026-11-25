@@ -95,7 +95,7 @@ if (footerResources && !footerResources.querySelector('[data-terms-link]')) {
 (() => {
   const schedule = [
     {id:'braai-workshop',name:'Braai Plankie Workshop',dates:['2026-12-14','2027-01-23','2027-02-27'],price:'R1,950',sale:'R1,560'},
-    {id:'arts-crafts-workshop',name:'Arts & Crafts Workshop',dates:['2026-12-12','2027-01-09','2027-02-06'],price:'R1,240',sale:'R992'},
+    {id:'arts-crafts-workshop',name:'Arts & Crafts Workshop',dates:['2026-12-12','2027-01-09','2027-02-06'],price:'R1,240',sale:'R990'},
     {id:'flooring-workshop',name:'Epoxy DIY Flooring Workshop',dates:['2026-12-15','2027-01-16','2027-02-20']}
   ];
   const fmt = (date, month='short') => new Intl.DateTimeFormat('en-GB',{day:'numeric',month,year:'numeric',timeZone:'UTC'}).format(new Date(date+'T12:00:00Z'));
@@ -107,7 +107,7 @@ if (footerResources && !footerResources.querySelector('[data-terms-link]')) {
   banner.hidden = true;
   banner.style.cssText='padding:24px 0;background:#111;color:white;border-bottom:5px solid #FDB913';
   const workshopPage = !!document.querySelector('.workshop-grid');
-  banner.innerHTML='<div class="container" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px"><div><div style="color:#FDB913;font-weight:800;letter-spacing:2px">BLACK FRIDAY SPECIAL</div><h2 style="font-size:clamp(26px,5vw,44px);line-height:1.2">SAVE 20% ON SELECTED WORKSHOPS</h2><p>Braai Plankie: R1,560 · Arts &amp; Crafts: R992</p><small>Offer ends 30 November 2026. Enquire to confirm availability.</small></div><a class="btn primary" href="'+(workshopPage?'#braai-workshop':'pages/workshops.html')+'">View Workshop Deals</a></div>';
+  banner.innerHTML='<div class="container" style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px"><div><div style="color:#FDB913;font-weight:800;letter-spacing:2px">BLACK FRIDAY SPECIAL</div><h2 style="font-size:clamp(26px,5vw,44px);line-height:1.2">SAVE 20% ON SELECTED WORKSHOPS</h2><p>Braai Plankie: R1,560 · Arts &amp; Crafts: R990</p><small>Offer ends 30 November 2026. Enquire to confirm availability.</small></div><a class="btn primary" href="'+(workshopPage?'#braai-workshop':'pages/workshops.html')+'">View Workshop Deals</a></div>';
   if(hero) hero.after(banner);
   function refresh(){
     const day=today();
